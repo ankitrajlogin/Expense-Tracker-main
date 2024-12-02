@@ -98,6 +98,7 @@ button{
 
 /* Minimal styling for the expense list */
 .expense-list {
+  margin-top : 10px ; 
   font-family: Arial, sans-serif;
 }
 
