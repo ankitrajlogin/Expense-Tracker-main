@@ -136,12 +136,12 @@ button{
 }
 
 .income-amount {
-  color: #27ae60;
+  color: #1c10c1;
   font-weight: bold;
 }
 
 .expense-amount{
-  color: #c0392b;
+  color: #352bc0;
   font-weight: bold;
 }
 
@@ -156,6 +156,47 @@ button{
   margin: 50px; /* Removes any default margin from the heading */
   text-align: center; /* Ensures text alignment in case the div grows */
 }
+
+
+/* Container for Type Dropdown */
+.form-group.transaction-type {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  /* font-family: 'Arial', sans-serif; */
+}
+
+/* Label Styling */
+.transaction-type-label {
+  /* font-size: 14px; */
+  /* font-weight: bold; */
+  margin: 10px;
+  /* color: #555; */
+}
+
+/* Select Dropdown Styling */
+.transaction-type-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+/* Hover and Focus States for Select */
+.transaction-type-select:hover {
+  border-color: #888;
+}
+
+.transaction-type-select:focus {
+  outline: none;
+  border-color: #27ae60;
+  box-shadow: 0 0 5px rgba(39, 174, 96, 0.5);
+}
+
 
 /* Optional for responsiveness */
 @media (max-width: 768px) {
